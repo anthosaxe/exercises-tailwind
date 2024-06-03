@@ -1,4 +1,3 @@
 # exercises-tailwind
 
-tailwind first approach
-[responsive box playing](https://www.github.com/anthosaxe.github.io/exercises-tailwind)
+tailwind first approach : [responsive box playing](https://anthosaxe.github.io/exercises-tailwind/)
