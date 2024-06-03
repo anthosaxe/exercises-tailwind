@@ -1,0 +1,106 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="flex justify-center items-center bg-purple-400 p-4">
+        <span class="text-xl">12 colonnes</span>
+    </div>
+    <div class="bg-purple-400 grid grid-cols-12">
+        <div class="col-span-1"></div>
+        <div class="col-span-2 border border-black rounded-lg flex justify-center m-0 p-4">coucou</div>
+        <div class="col-span-2"></div>
+        <div class="col-span-3 border border-black rounded-lg flex justify-center m-0 p-4">ça</div>
+        <div class="col-span-2"></div>
+        <div class="col-span-2 border border-black rounded-lg flex justify-center m-0 p-4">va ?</div>
+    </div>
+    <div class="w-full flex justify-center items-center bg-red-400 p-4"></div>
+    <div class="p-4 grid grid-cols-12">
+        <div class="col-span-4">
+            <div class="col-span-4 bg-purple-300 border border-black rounded-lg p-4 flex justify-center whitespace-nowrap">
+                Nouvel
+            </div>
+        </div>
+        <div class="col-span-8 bg-purple-300 border border-black rounded-lg">
+            <div class="grid grid-cols-11">
+                <div class="col-span-11 flex justify-center p-4">
+                    <span class="font-bold">Exercice</span> 
+                </div>
+                <div class="col-span-3 border border-black rounded-lg p-4 flex justify-center">
+                    Ces
+                </div>
+                <div class="col-span-5 border border-black rounded-lg p-4 flex justify-center">
+                    blocs sont tous
+                </div>
+                <div class="col-span-3 border border-black rounded-lg p-4 flex justify-center">
+                    dans
+                </div>
+                <div class="col-span-4 border border-black rounded-lg p-4 flex justify-center">
+                    la même
+                </div>
+                <div class="col-span-3 border border-black rounded-lg p-4 flex justify-center">
+                    div ou est
+                </div>
+                <div class="col-span-4 border border-black rounded-lg p-4 flex justify-center">
+                    inscrit <span class="font-bold">"Exercice"</span> 
+                </div>
+                <div class="col-span-5 border border-black rounded-lg p-4 flex justify-center">
+                    coment
+                </div>
+                <div class="col-span-1 border border-black rounded-lg p-4 flex justify-center">
+                    est
+                </div>
+                <div class="col-span-5 border border-black rounded-lg p-4 flex justify-center">
+                    ce possible ? 
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="w-full flex justify-center items-center bg-red-400 p-4"></div>
+    <div class="bg-purple-400 grid grid-cols-12">
+        <div class="col-span-1 order-1"></div>
+        <div class="col-span-2 border border-black rounded-lg flex justify-center m-0 p-4 order-2">coucou</div>
+        <div class="col-span-2 order-3"></div>
+        <div class="col-span-3 border border-black rounded-lg flex justify-center m-0 p-4 order-6">ça</div>
+        <div class="col-span-2 order-5"></div>
+        <div class="col-span-2 border border-black rounded-lg flex justify-center m-0 p-4 order-4">va ?</div>
+    </div>
+    <div class="w-full flex justify-center items-center bg-red-400 p-4"></div>
+    <div class="p-4 grid grid-cols-12">
+        <div class="col-span-6">
+            <div class="grid grid-cols-12 border border-black rounded-lg bg-purple-600 ">
+                <div class="col-span-12 flex justify-center my-2">
+                    6 colonnes
+                </div>
+                <div  class="col-span-4 border border-black rounded-lg flex justify-center p-4">
+                    4 colonnes
+                </div>
+                <div class="col-span-4">
+
+                </div>
+                <div class="col-span-4 border border-black rounded-lg flex justify-center p-4">
+                    4 colonnes
+                </div>
+            </div>
+        </div>
+        <div class="col-span-6">
+            <div class="grid grid-cols-12 border border-black rounded-lg bg-purple-600">
+                <div class="col-span-12 flex justify-center my-2">
+                    6 colonnes
+                </div>
+                <div class="col-span-4 border border-black rounded-lg flex justify-center p-4">
+                    4 colonnes
+                </div>
+                <div class="col-span-8 border border-black rounded-lg flex justify-center p-4">
+                    8 colonnes
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
